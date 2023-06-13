@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0 200px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+header {
+    margin-top: 20px;
+}
+header a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+header a:hover {
+    color: #646464;
+}
+
+.info {
+    text-align: center;
+}
+
+.name {
+    margin-top: 200px;
+}
+
+.speciality {
+    margin-top: 10px;
+    color: #5c5c5c;
+}
+
+.contacts {
+    margin-top: 20px;
+}
+
+.contacts-header {
+    font-size: 20px;
+}
+
+.contacts-cards {
+    margin-top: 10px;
+}
+
+.contacts-card {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #3a3a3a;
+    font-size: 30px;
+    width: 50px;
+    margin: 0 3px;
+    border-radius: 20%;
+    transition: 0.3s;
+}
+
+.contacts-card:hover {
+    background-color: #5c5c5c;
+}
