@@ -34,9 +34,38 @@ header a:hover {
     margin-top: 200px;
 }
 
-.speciality {
+.bio {
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+
+.bio-study {
+    margin-top: 3px;
+    color: #242424;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-list {
     margin-top: 10px;
-    color: #5c5c5c;
+}
+
+.skills-item {
+    display: inline-block;
+    padding: 3px 6px;
+    border: 2px solid #444444;
+    border-radius: 25px;
+    color: #353535;
+    font-weight: bold;
 }
 
 .contacts {
@@ -45,6 +74,7 @@ header a:hover {
 
 .contacts-header {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .contacts-cards {
