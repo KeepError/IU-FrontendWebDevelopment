@@ -6,36 +6,56 @@
 
 body {
     font-family: sans-serif;
-    margin: 0 200px;
+    margin: 0 300px;
 }
 
 header {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
+
 header {
     margin-top: 20px;
+    font-size: 16px;
 }
+
+#header-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
 header a {
     margin: 0 20px;
     text-decoration: none;
     color: black;
     transition: 0.3s;
 }
+
 header a:hover {
     color: #646464;
 }
 
 #info {
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: center;
+}
+
+#hello {
+    font-size: 50px;
+    font-weight: bold;
 }
 
 #bio {
     margin-top: 6px;
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #4c4c4c;
+}
+
+.bio-highlight {
+    font-weight: bold;
+    color: #3d3d3d;
 }
 
 #bio-study {
@@ -95,7 +115,7 @@ header a:hover {
 }
 
 
-.comic {
+#comic {
     margin-top: 100px;
     text-align: center;
 }

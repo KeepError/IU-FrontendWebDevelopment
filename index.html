@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Egor's website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="/about.html">About Me</a>
-                <a href="/photos.html">Photos</a>
-                <a href="/portfolio.html">Portfolio</a>
-                <a href="/contact.html">Contact Me</a>
-            </nav>
-        </header>
-        <main>
-            <div id="info">
-                <h1 id="name">Egor Kuziakov</h1>
-                <p id="bio">Fullstack developer</p>
-                <p id="bio-study">Studying at Innopolis University</p>
-                <div id="skills">
-                    <p id="skills-header">Essential skills</p>
-                    <ul id="skills-list">
-                        <li class="skills-item">Python</li>
-                        <li class="skills-item">Web development</li>
-                        <li class="skills-item">SQL</li>
-                        <li class="skills-item">Deployment</li>
-                    </ul>
-                </div>
-                <div id="contacts">
-                    <p id="contacts-header">Contact me</p>
-                    <div id="contacts-cards">
-                        <a href="mailto:e.kuziakov@innopolis.university" id="email" class="fa fa-envelope contacts-card"></a>
-                        <a href="https://github.com/KeepError" id="gh-link" class="fa fa-github contacts-card"></a>
-                        <a href="https://keeperror.t.me" id="tg-link" class="fa fa-telegram contacts-card"></a>
-                        <a href="https://www.linkedin.com/in/keeperror" id="lin-link" class="fa fa-linkedin contacts-card"></a>
-                    </div>
+
+<head>
+    <title>Egor's website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="header-name">Egor Kuziakov</h1>
+        <nav>
+            <a href="/about.html">About Me</a>
+            <a href="/photos.html">Photos</a>
+            <a href="/portfolio.html">Portfolio</a>
+            <a href="/contact.html">Contact Me</a>
+        </nav>
+    </header>
+    <main>
+        <div id="info">
+            <h1 id="hello">Hello!</h1>
+            <p id="bio">
+                I'm <span class="bio-highlight">Egor Kuziakov</span><br>
+                <span class="bio-highlight">Fullstack developer</span><br>
+                studying at <span class="bio-highlight">Innopolis University</span>
+            </p>
+            <div id="skills">
+                <p id="skills-header">Essential skills</p>
+                <ul id="skills-list">
+                    <li class="skills-item">Python</li>
+                    <li class="skills-item">Web development</li>
+                    <li class="skills-item">SQL</li>
+                    <li class="skills-item">Deployment</li>
+                </ul>
+            </div>
+            <div id="contacts">
+                <p id="contacts-header">Contact me</p>
+                <div id="contacts-cards">
+                    <a href="mailto:e.kuziakov@innopolis.university" id="email"
+                        class="fa fa-envelope contacts-card"></a>
+                    <a href="https://github.com/KeepError" id="gh-link" class="fa fa-github contacts-card"></a>
+                    <a href="https://keeperror.t.me" id="tg-link" class="fa fa-telegram contacts-card"></a>
+                    <a href="https://www.linkedin.com/in/keeperror" id="lin-link"
+                        class="fa fa-linkedin contacts-card"></a>
                 </div>
             </div>
-        </main>
-    </body>
+        </div>
+        <div id="comic">
+            <img id="comic-image" alt="comic image">
+            <p id="comic-details">
+                <span id="comic-title">Loading comic details...</span> (<span id="comic-date"></span>)
+            </p>
+        </div>
+    </main>
+</body>
+
 </html>
