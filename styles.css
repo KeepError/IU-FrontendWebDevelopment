@@ -26,36 +26,33 @@ header a:hover {
     color: #646464;
 }
 
-.info {
+#info {
+    margin-top: 200px;
     text-align: center;
 }
 
-.name {
-    margin-top: 200px;
-}
-
-.bio {
+#bio {
     margin-top: 6px;
     font-size: 20px;
     font-weight: bold;
     color: #4c4c4c;
 }
 
-.bio-study {
+#bio-study {
     margin-top: 3px;
     color: #242424;
 }
 
-.skills {
+#skills {
     margin-top: 20px;
 }
 
-.skills-header {
+#skills-header {
     font-size: 20px;
     font-weight: bold;
 }
 
-.skills-list {
+#skills-list {
     margin-top: 10px;
 }
 
@@ -68,16 +65,16 @@ header a:hover {
     font-weight: bold;
 }
 
-.contacts {
+#contacts {
     margin-top: 20px;
 }
 
-.contacts-header {
+#contacts-header {
     font-size: 20px;
     font-weight: bold;
 }
 
-.contacts-cards {
+#contacts-cards {
     margin-top: 10px;
 }
 
@@ -95,4 +92,10 @@ header a:hover {
 
 .contacts-card:hover {
     background-color: #5c5c5c;
+}
+
+
+.comic {
+    margin-top: 100px;
+    text-align: center;
 }
