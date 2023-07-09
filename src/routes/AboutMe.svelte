@@ -24,13 +24,17 @@
 	<div id="contacts">
 		<p id="contacts-header">Contact me</p>
 		<div id="contacts-cards">
+			<!-- svelte-ignore a11y-missing-content -->
 			<a
 				href="mailto:e.kuziakov@innopolis.university"
 				id="email"
 				class="fa fa-envelope contacts-card"
 			/>
+			<!-- svelte-ignore a11y-missing-content -->
 			<a href="https://github.com/KeepError" id="gh-link" class="fa fa-github contacts-card" />
+			<!-- svelte-ignore a11y-missing-content -->
 			<a href="https://keeperror.t.me" id="tg-link" class="fa fa-telegram contacts-card" />
+			<!-- svelte-ignore a11y-missing-content -->
 			<a
 				href="https://www.linkedin.com/in/keeperror"
 				id="lin-link"
