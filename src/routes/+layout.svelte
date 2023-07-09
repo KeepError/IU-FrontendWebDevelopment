@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	// import Header from './Header.svelte';
 	import Navbar from './Navbar.svelte';
 	import Footer from './Footer.svelte';

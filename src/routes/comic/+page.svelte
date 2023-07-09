@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import RandomComic from './RandomComic.svelte';
 </script>
 

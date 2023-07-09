@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import AboutMe from './AboutMe.svelte';
 </script>
 
